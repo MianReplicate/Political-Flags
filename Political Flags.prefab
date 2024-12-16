@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1450327976445928608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5222062321539068418}
+  - component: {fileID: 6726400015927089120}
+  - component: {fileID: 7319774260185450326}
+  - component: {fileID: -2762873169135291537}
+  m_Layer: 0
+  m_Name: Political Flags
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5222062321539068418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450327976445928608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6726400015927089120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450327976445928608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3b8824308adc64fb1901cef109132a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutators:
+  - name: Political Flags
+    description: Fight 'em politics!
+    menuImage: {fileID: 2800000, guid: b9024af99bad7d24293bad612f19358f, type: 3}
+    mutatorPrefab: {fileID: 1450327976445928608}
+    configuration:
+      labels:
+      - id: 
+        displayName: <b><color=white>If you are planning on using other flag mutators
+          using the same framework, select "DISABLED" on the flags you want to modify
+          with other mutators!</color></b>
+        orderPriority: 0
+      integers: []
+      floats: []
+      ranges: []
+      strings: []
+      bools: []
+      dropdowns:
+      - id: EagleFlag
+        displayName: <color=blue>EAGLE FLAG</color>
+        orderPriority: 2
+        value:
+          index: 0
+          labels:
+          - DISABLED
+          - <color=red>USA</color>
+          - <color=blue>RUSSIA</color>
+          - <color=white>FRANCE</color>
+          - <color=blue>UK</color>
+          - <color=red>CHINA</color>
+          - <color=#d9e5d3>SWITZERLAND</color>
+      - id: RavenFlag
+        displayName: <color=red>RAVEN FLAG</color>
+        orderPriority: 2
+        value:
+          index: 0
+          labels:
+          - DISABLED
+          - <color=red>USA</color>
+          - <color=blue>RUSSIA</color>
+          - <color=white>FRANCE</color>
+          - <color=blue>UK</color>
+          - <color=red>CHINA</color>
+          - <color=#d9e5d3>SWITZERLAND</color>
+--- !u!114 &7319774260185450326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450327976445928608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53a71c6a7b01e1449208c55b04f1aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bools: []
+  ints: []
+  floats: []
+  strings: []
+  vectors: []
+  rotations: []
+  colors:
+  - id: Flag1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  - id: Flag2
+    value: {r: 0, g: 0.2022934, b: 1, a: 0}
+  - id: Flag3
+    value: {r: 1, g: 0, b: 0.009149075, a: 0}
+  - id: Flag4
+    value: {r: 0, g: 0.68884516, b: 1, a: 0}
+  - id: Flag5
+    value: {r: 1, g: 0, b: 0.019823551, a: 0}
+  - id: Flag6
+    value: {r: 1, g: 0.8592559, b: 0, a: 0}
+  - id: Flag7
+    value: {r: 0.8506359, g: 0.8962264, b: 0.82576835, a: 0}
+  gradients: []
+  textures: []
+  sprites: []
+  audioClips: []
+  materials:
+  - id: Flag1
+    value: {fileID: 0}
+  - id: Flag2
+    value: {fileID: 2100000, guid: e33308d7efa8c8f41ad80a0d854c90ca, type: 2}
+  - id: Flag3
+    value: {fileID: 2100000, guid: 29f5244775024fb4b80a103ea203300e, type: 2}
+  - id: Flag4
+    value: {fileID: 2100000, guid: 79d446bcc7fd0a145ad3b5f9393d543c, type: 2}
+  - id: Flag5
+    value: {fileID: 2100000, guid: 27fc6501cab08554ea90d6bd020afffd, type: 2}
+  - id: Flag6
+    value: {fileID: 2100000, guid: 183675ecb487b6a4e8717f51f848f0d9, type: 2}
+  - id: Flag7
+    value: {fileID: 2100000, guid: c8d3a689f360e11409ab00996649bd7a, type: 2}
+  animationCurves: []
+  fonts: []
+  gameObjects: []
+  skins: []
+  weaponEntries: []
+--- !u!114 &-2762873169135291537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450327976445928608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8ca71ca01d2fb4098cb42abc5eceb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 4900000, guid: 54224bae4cb43364fb9878752bdc54f4, type: 3}
+  behaviour: 
+  targets: []
