@@ -1,9 +1,11 @@
 # Introduction
 A mutator utilizing Mian's Custom Flags Framework which allows you to replace Eagle/Raven flags with political flags ranging from countries, to parties, to states, and more!
 
-This mutator is purely for entertainment (and is also just a template for my framework if im being honest). As such, PLEASE do not bring topics up to a real political level. It does not matter what is happening in the real world, ABSOLUTELY separate that from this. These are just goofy red pesky dudes fighting against other goofy blue pesky dudes after all.
+This mutator is purely for entertainment (and is also just a template for my framework if im being honest). I do not mean for this to reflect any political related things happening in real life. In the end you are just fighting blocky people :0
 
-There should also be no performance drain whatsoever with this mutator compared to other flag mutators. If you find that there is a significant change in performance, let me know in the issue tracker for the framework this mutator is dependent on.
+This adds about 50+ political related flags to the framework.
+
+There should also be no significant performance drain with this mutator compared to other flag mutators. If you find that there is a significant change in performance, let me know in the issue tracker for the framework.
 
 More information about the framework this mutator is dependent on can be found [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3385310995).
 

@@ -1,10 +1,12 @@
-behaviour("MianPoliticalFlags")
+local mutatorName = "MianPoliticalFlags"
+behaviour(mutatorName)
 
 function MianPoliticalFlags:Awake()
 	self.frameworkName = "Flag Framework(Clone)"
 	self.dataContainer = self.gameObject.GetComponent(DataContainer)
-	self.CustomFlags = self.dataContainer.GetMaterialArray("Flag")
+	self.CustomFlags = self.dataContainer.GetTextureArray("Flag")
 	self.CustomFlagTeamColors = self.dataContainer.GetColorArray("Flag")
+	self.cover = self.dataContainer.GetTexture("Cover")
 end
 
 function MianPoliticalFlags:Start()
@@ -15,10 +17,12 @@ function MianPoliticalFlags:Start()
 		error("Framework was not found! Please make sure the Custom Flags Framework mutator has been enabled.")
 	end
 
-	for _, material in pairs(self.CustomFlags) do
-		self.framework:AddFlagMaterial(material, self.CustomFlagTeamColors[index])
-	end
+	local mutatorData = {
+		name = mutatorName,
+		cover = self.cover
+	}
 
-	self.framework:UseFlagMaterialForTeam(Team.Blue, self.CustomFlags[self.script.mutator.GetConfigurationDropdown("EagleFlag") + 1])
-	self.framework:UseFlagMaterialForTeam(Team.Red, self.CustomFlags[self.script.mutator.GetConfigurationDropdown("RavenFlag") + 1])
+	for index, texture in pairs(self.CustomFlags) do
+		self.framework:addTextureData(mutatorData, texture, self.CustomFlagTeamColors[index])
+	end
 end

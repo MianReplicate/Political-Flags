@@ -51,44 +51,13 @@ MonoBehaviour:
     menuImage: {fileID: 2800000, guid: b9024af99bad7d24293bad612f19358f, type: 3}
     mutatorPrefab: {fileID: 1450327976445928608}
     configuration:
-      labels:
-      - id: 
-        displayName: <b><color=white>If you are planning on using other flag mutators
-          using the same framework, select "DISABLED" on the flags you want to modify
-          with other mutators!</color></b>
-        orderPriority: 0
+      labels: []
       integers: []
       floats: []
       ranges: []
       strings: []
       bools: []
-      dropdowns:
-      - id: EagleFlag
-        displayName: <color=blue>EAGLE FLAG</color>
-        orderPriority: 2
-        value:
-          index: 0
-          labels:
-          - DISABLED
-          - <color=red>USA</color>
-          - <color=blue>RUSSIA</color>
-          - <color=white>FRANCE</color>
-          - <color=blue>UK</color>
-          - <color=red>CHINA</color>
-          - <color=#d9e5d3>SWITZERLAND</color>
-      - id: RavenFlag
-        displayName: <color=red>RAVEN FLAG</color>
-        orderPriority: 2
-        value:
-          index: 0
-          labels:
-          - DISABLED
-          - <color=red>USA</color>
-          - <color=blue>RUSSIA</color>
-          - <color=white>FRANCE</color>
-          - <color=blue>UK</color>
-          - <color=red>CHINA</color>
-          - <color=#d9e5d3>SWITZERLAND</color>
+      dropdowns: []
 --- !u!114 &7319774260185450326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,38 +78,232 @@ MonoBehaviour:
   rotations: []
   colors:
   - id: Flag1
-    value: {r: 0, g: 0, b: 0, a: 0}
+    value: {r: 0, g: 0.47450984, b: 0.2392157, a: 0}
   - id: Flag2
-    value: {r: 0, g: 0.2022934, b: 1, a: 0}
+    value: {r: 0.45098042, g: 0.6745098, b: 0.8705883, a: 0}
   - id: Flag3
-    value: {r: 1, g: 0, b: 0.009149075, a: 0}
+    value: {r: 0, g: 0.12941177, b: 0.40784317, a: 0}
   - id: Flag4
-    value: {r: 0, g: 0.68884516, b: 1, a: 0}
+    value: {r: 0.92549026, g: 0.16078432, b: 0.22352943, a: 0}
   - id: Flag5
-    value: {r: 1, g: 0, b: 0.019823551, a: 0}
+    value: {r: 0.9921569, g: 0.8588236, b: 0.14901961, a: 0}
   - id: Flag6
-    value: {r: 1, g: 0.8592559, b: 0, a: 0}
+    value: {r: 1, g: 1, b: 0.48235297, a: 0}
   - id: Flag7
-    value: {r: 0.8506359, g: 0.8962264, b: 0.82576835, a: 0}
+    value: {r: 0.72156864, g: 0.07450981, b: 0.20392159, a: 0}
+  - id: Flag8
+    value: {r: 0, g: 0.16470589, b: 0.63529414, a: 0}
+  - id: Flag9
+    value: {r: 1, g: 0.8117648, b: 0.09411766, a: 0}
+  - id: Flag10
+    value: {r: 0.85098046, g: 0.027450982, b: 0.12941177, a: 0}
+  - id: Flag11
+    value: {r: 0.8705883, g: 0.16078432, b: 0.0627451, a: 0}
+  - id: Flag12
+    value: {r: 0, g: 0.18823531, b: 0.53333336, a: 0}
+  - id: Flag13
+    value: {r: 0.7725491, g: 0.77647066, b: 0.8117648, a: 0}
+  - id: Flag14
+    value: {r: 0.23529413, g: 0.7176471, b: 0.9450981, a: 0}
+  - id: Flag15
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag16
+    value: {r: 0.8078432, g: 0.078431375, b: 0.16078432, a: 0}
+  - id: Flag17
+    value: {r: 0.8352942, g: 0.7568628, b: 0.34901962, a: 0}
+  - id: Flag18
+    value: {r: 0, g: 0.14117648, b: 0.5803922, a: 0}
+  - id: Flag19
+    value: {r: 0.045612313, g: 0.38679248, b: 0.17094326, a: 0}
+  - id: Flag20
+    value: {r: 0, g: 0.5921569, b: 0.22352943, a: 0}
+  - id: Flag21
+    value: {r: 0.050980397, g: 0.36862746, b: 0.6901961, a: 0}
+  - id: Flag22
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag23
+    value: {r: 0.2784314, g: 0.43529415, b: 0.30980393, a: 0}
+  - id: Flag24
+    value: {r: 0.86274517, g: 0.121568635, b: 0.21568629, a: 0}
+  - id: Flag25
+    value: {r: 0.9490197, g: 0.36078432, b: 0.14901961, a: 0}
+  - id: Flag26
+    value: {r: 1, g: 0, b: 0, a: 0}
+  - id: Flag27
+    value: {r: 0, g: 0.57254905, b: 0.2784314, a: 0}
+  - id: Flag28
+    value: {r: 0.01886791, g: 0.0152189275, b: 0.016087733, a: 0}
+  - id: Flag29
+    value: {r: 0, g: 0, b: 0, a: 0}
+  - id: Flag30
+    value: {r: 0.8235295, g: 0.52156866, b: 0.50980395, a: 0}
+  - id: Flag31
+    value: {r: 0.9803922, g: 0.25882354, b: 0.22352943, a: 0}
+  - id: Flag32
+    value: {r: 0, g: 0.5176471, b: 0.2392157, a: 0}
+  - id: Flag33
+    value: {r: 0.44705886, g: 0.28627452, b: 0.20784315, a: 0}
+  - id: Flag34
+    value: {r: 1, g: 0.8196079, b: 0, a: 0}
+  - id: Flag35
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag36
+    value: {r: 0.7411765, g: 0.0627451, b: 0.19215688, a: 0}
+  - id: Flag37
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag38
+    value: {r: 0.83921576, g: 0.16470589, b: 0.11764707, a: 0}
+  - id: Flag39
+    value: {r: 0.3647059, g: 0, b: 0.49411768, a: 0}
+  - id: Flag40
+    value: {r: 0.86274517, g: 0.078431375, b: 0.23529413, a: 0}
+  - id: Flag41
+    value: {r: 0, g: 0.40000004, b: 0, a: 0}
+  - id: Flag42
+    value: {r: 0.9058824, g: 0.10980393, b: 0.13725491, a: 0}
+  - id: Flag43
+    value: {r: 0.83921576, g: 0.16470589, b: 0.11764707, a: 0}
+  - id: Flag44
+    value: {r: 0, g: 0.36862746, b: 0.72156864, a: 0}
+  - id: Flag45
+    value: {r: 0.92549026, g: 0.16078432, b: 0.22352943, a: 0}
+  - id: Flag46
+    value: {r: 0.20000002, g: 0.5882353, b: 0.35686275, a: 0}
+  - id: Flag47
+    value: {r: 0.882353, g: 0.23529413, b: 0.19215688, a: 0}
+  - id: Flag48
+    value: {r: 0.49411768, g: 0.24705884, b: 0.5254902, a: 0}
+  - id: Flag49
+    value: {r: 0.854902, g: 0.15686275, b: 0.10980393, a: 0}
+  - id: Flag50
+    value: {r: 0, g: 0.14117648, b: 0.49411768, a: 0}
+  - id: Flag51
+    value: {r: 0.12941177, g: 0.2784314, b: 0.54901963, a: 0}
+  - id: Flag52
+    value: {r: 0.6784314, g: 0.10980393, b: 0.16078432, a: 0}
+  - id: Flag53
+    value: {r: 0.8196079, g: 0.078431375, b: 0.17254902, a: 0}
+  - id: Flag54
+    value: {r: 0.2246796, g: 0.24006674, b: 0.4811321, a: 0}
+  - id: Flag55
+    value: {r: 1, g: 0.9058824, b: 0, a: 0}
   gradients: []
-  textures: []
+  textures:
+  - id: Cover
+    value: {fileID: 2800000, guid: b9024af99bad7d24293bad612f19358f, type: 3}
+  - id: Flag1
+    value: {fileID: 2800000, guid: 6f43af7ded14e95449a34e93002d2108, type: 3}
+  - id: Flag2
+    value: {fileID: 2800000, guid: 09aef8c36a9377946bdc568a2937f662, type: 3}
+  - id: Flag3
+    value: {fileID: 2800000, guid: 5bd8733d3723b3140b13a1f8f0fe8c3a, type: 3}
+  - id: Flag4
+    value: {fileID: 2800000, guid: c8af244aec13114488e28beb26d87682, type: 3}
+  - id: Flag5
+    value: {fileID: 2800000, guid: 13662692339e82a4f84425a48fb64106, type: 3}
+  - id: Flag6
+    value: {fileID: 2800000, guid: 8e4fae0cc05911d41b3a088a2e45d898, type: 3}
+  - id: Flag7
+    value: {fileID: 2800000, guid: a9a1cdde1c2c6d840af390b5de0d9b84, type: 3}
+  - id: Flag8
+    value: {fileID: 2800000, guid: dc798780d8a20f04d91cce6fb1bd2c82, type: 3}
+  - id: Flag9
+    value: {fileID: 2800000, guid: 24619d84b7376c4409bc4d1b6540b25e, type: 3}
+  - id: Flag10
+    value: {fileID: 2800000, guid: 0bd4cc26c92e9a9478c0b36e8c6be3ba, type: 3}
+  - id: Flag11
+    value: {fileID: 2800000, guid: 8652a585402e59248918b35c025764c3, type: 3}
+  - id: Flag12
+    value: {fileID: 2800000, guid: 4d41d3de018940441a022dde5da0eb03, type: 3}
+  - id: Flag13
+    value: {fileID: 2800000, guid: 4b9dd5f1e3241604099107fef28f848d, type: 3}
+  - id: Flag14
+    value: {fileID: 2800000, guid: 18d6cd5726777bd4d8d90fc09cb747de, type: 3}
+  - id: Flag15
+    value: {fileID: 2800000, guid: 5151643da48a8494a91c0cdc5af203a1, type: 3}
+  - id: Flag16
+    value: {fileID: 2800000, guid: 08203993b72013149add56c3424f62a9, type: 3}
+  - id: Flag17
+    value: {fileID: 2800000, guid: b3f89652ab456b646b4188dbe546fbe9, type: 3}
+  - id: Flag18
+    value: {fileID: 2800000, guid: dfd3be8a126f52449870810fe2463acd, type: 3}
+  - id: Flag19
+    value: {fileID: 2800000, guid: c45b4e37bb49c044d81aebed69c9d100, type: 3}
+  - id: Flag20
+    value: {fileID: 2800000, guid: a4f9d1a3324ad164996148e4bf663c8d, type: 3}
+  - id: Flag21
+    value: {fileID: 2800000, guid: 4618fccf24801ab4490e495eb5715d34, type: 3}
+  - id: Flag22
+    value: {fileID: 2800000, guid: 6d26f29aee796804a85213b0211682c0, type: 3}
+  - id: Flag23
+    value: {fileID: 2800000, guid: 19b5c91f4a6eaca4090abd4981ce0423, type: 3}
+  - id: Flag24
+    value: {fileID: 2800000, guid: a478f2a23aa8b7e47ac5970ebf013c51, type: 3}
+  - id: Flag25
+    value: {fileID: 2800000, guid: 3ef2908445f92b64fa61dac11d5079cc, type: 3}
+  - id: Flag26
+    value: {fileID: 2800000, guid: 8dc21c3739762fd4e98b7aa6c1a4486d, type: 3}
+  - id: Flag27
+    value: {fileID: 2800000, guid: 791022d589a5be44cb97f24f1e48ec22, type: 3}
+  - id: Flag28
+    value: {fileID: 2800000, guid: 54a755e198b0d834588d2a7faa51282c, type: 3}
+  - id: Flag29
+    value: {fileID: 2800000, guid: 3540f48f57029f24489ad29fe42fdafa, type: 3}
+  - id: Flag30
+    value: {fileID: 2800000, guid: 63458a5859a762b4bab18e864f037792, type: 3}
+  - id: Flag31
+    value: {fileID: 2800000, guid: ca320d896b4821d4bac64f7efb2d4195, type: 3}
+  - id: Flag32
+    value: {fileID: 2800000, guid: f5846ed70e0b5b540aa8cde1efee07d1, type: 3}
+  - id: Flag33
+    value: {fileID: 2800000, guid: 20f434d6db5acb3439fca2de5bf39dcc, type: 3}
+  - id: Flag34
+    value: {fileID: 2800000, guid: 2a8c7e980fbd99f46971b52bf63dad49, type: 3}
+  - id: Flag35
+    value: {fileID: 2800000, guid: d4212f6d23588f644ba1114c5a4ffe3b, type: 3}
+  - id: Flag36
+    value: {fileID: 2800000, guid: 7988c81fa2379874db9bb425b1ddc139, type: 3}
+  - id: Flag37
+    value: {fileID: 2800000, guid: 9cf016c8cd71c7146bf1bd055fef2ce1, type: 3}
+  - id: Flag38
+    value: {fileID: 2800000, guid: 5cb802bf36c0ec44ea40fb5436c80c66, type: 3}
+  - id: Flag39
+    value: {fileID: 2800000, guid: 58b44dcf84e6ae54d8f4ce98cc456727, type: 3}
+  - id: Flag40
+    value: {fileID: 2800000, guid: 297a86b5397bd0a4d826b25406d392c2, type: 3}
+  - id: Flag41
+    value: {fileID: 2800000, guid: fd58bb4cfed43af46a60f2bbc87b6fa1, type: 3}
+  - id: Flag42
+    value: {fileID: 2800000, guid: 105fad1741fcecb4f9d405a8f9c96f48, type: 3}
+  - id: Flag43
+    value: {fileID: 2800000, guid: 27f1fcdc6914ca64cbe761e2daa0cce0, type: 3}
+  - id: Flag44
+    value: {fileID: 2800000, guid: c6ca04d1089f32c4a8cef2b614c96ff6, type: 3}
+  - id: Flag45
+    value: {fileID: 2800000, guid: 717df364ea798a34c91fe80feb09e88a, type: 3}
+  - id: Flag46
+    value: {fileID: 2800000, guid: 58c51487d585d8049b9c5a5bb9a41fbc, type: 3}
+  - id: Flag47
+    value: {fileID: 2800000, guid: e4910c41ede58a74b8f3566ee720a950, type: 3}
+  - id: Flag48
+    value: {fileID: 2800000, guid: e06d7445627514e43b27953154533dee, type: 3}
+  - id: Flag49
+    value: {fileID: 2800000, guid: 6ca1087507d18954fbca91863f28af28, type: 3}
+  - id: Flag50
+    value: {fileID: 2800000, guid: c1c5472fc041f824a91a549ed88d5375, type: 3}
+  - id: Flag51
+    value: {fileID: 2800000, guid: 78f4168c14fa44641bd32eb2be62e3ba, type: 3}
+  - id: Flag52
+    value: {fileID: 2800000, guid: 252423d6d6277784c9d3e2a275b64e54, type: 3}
+  - id: Flag53
+    value: {fileID: 2800000, guid: 62d0c7893d9b80e49bc7d7ccdacb5d53, type: 3}
+  - id: Flag54
+    value: {fileID: 2800000, guid: a7c444d3d7ea45f418de9326b46bd0fa, type: 3}
+  - id: Flag55
+    value: {fileID: 2800000, guid: db0c1bbf8859df244b8846d91abc2a53, type: 3}
   sprites: []
   audioClips: []
-  materials:
-  - id: Flag1
-    value: {fileID: 0}
-  - id: Flag2
-    value: {fileID: 2100000, guid: e33308d7efa8c8f41ad80a0d854c90ca, type: 2}
-  - id: Flag3
-    value: {fileID: 2100000, guid: 29f5244775024fb4b80a103ea203300e, type: 2}
-  - id: Flag4
-    value: {fileID: 2100000, guid: 79d446bcc7fd0a145ad3b5f9393d543c, type: 2}
-  - id: Flag5
-    value: {fileID: 2100000, guid: 27fc6501cab08554ea90d6bd020afffd, type: 2}
-  - id: Flag6
-    value: {fileID: 2100000, guid: 183675ecb487b6a4e8717f51f848f0d9, type: 2}
-  - id: Flag7
-    value: {fileID: 2100000, guid: c8d3a689f360e11409ab00996649bd7a, type: 2}
+  materials: []
   animationCurves: []
   fonts: []
   gameObjects: []
@@ -158,6 +321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f8ca71ca01d2fb4098cb42abc5eceb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 4900000, guid: 54224bae4cb43364fb9878752bdc54f4, type: 3}
+  source: {fileID: 2213920135882650261, guid: 54224bae4cb43364fb9878752bdc54f4, type: 3}
   behaviour: 
   targets: []
