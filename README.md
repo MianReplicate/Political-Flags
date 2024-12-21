@@ -1,5 +1,5 @@
 # Introduction
-A mutator utilizing Mian's Custom Flags Framework which allows you to replace Eagle/Raven flags with political flags ranging from countries, to parties, to states, and more!
+A mutator utilizing the Custom Flags Framework which allows you to replace Eagle/Raven flags with political flags ranging from countries, to parties, to states, and more!
 
 This mutator is purely for entertainment (and is also just a template for my framework if im being honest). I do not mean for this to reflect any political related things happening in real life. In the end you are just fighting blocky people :0
 
