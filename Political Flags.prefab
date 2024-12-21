@@ -187,6 +187,48 @@ MonoBehaviour:
     value: {r: 0.2246796, g: 0.24006674, b: 0.4811321, a: 0}
   - id: Flag55
     value: {r: 1, g: 0.9058824, b: 0, a: 0}
+  - id: Flag56
+    value: {r: 0, g: 0.5921569, b: 0.22352943, a: 0}
+  - id: Flag57
+    value: {r: 0, g: 0.24313727, b: 0.64705884, a: 0}
+  - id: Flag58
+    value: {r: 0.75294125, g: 0.043137256, b: 0.19215688, a: 0}
+  - id: Flag59
+    value: {r: 0, g: 0.5254902, b: 0.79215693, a: 0}
+  - id: Flag60
+    value: {r: 0.854902, g: 0.15686275, b: 0.10980393, a: 0}
+  - id: Flag61
+    value: {r: 0.24705884, g: 0.6039216, b: 0, a: 0}
+  - id: Flag62
+    value: {r: 0, g: 0, b: 0, a: 0}
+  - id: Flag63
+    value: {r: 0, g: 0.12941177, b: 0.40784317, a: 0}
+  - id: Flag64
+    value: {r: 1, g: 0.86666673, b: 0, a: 0}
+  - id: Flag65
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag66
+    value: {r: 0.9921569, g: 0.8235295, b: 0.08627451, a: 0}
+  - id: Flag67
+    value: {r: 0, g: 0.48627454, b: 0.18039216, a: 0}
+  - id: Flag68
+    value: {r: 0, g: 0, b: 0, a: 0}
+  - id: Flag69
+    value: {r: 0, g: 0.44705886, b: 0.77647066, a: 0}
+  - id: Flag70
+    value: {r: 0.7843138, g: 0.0627451, b: 0.18039216, a: 0}
+  - id: Flag71
+    value: {r: 1, g: 0.7803922, b: 0.17254902, a: 0}
+  - id: Flag72
+    value: {r: 0, g: 0.41176474, b: 0.30588236, a: 0}
+  - id: Flag73
+    value: {r: 0, g: 0, b: 0, a: 0}
+  - id: Flag74
+    value: {r: 0.7843138, g: 0.0627451, b: 0.18039216, a: 0}
+  - id: Flag75
+    value: {r: 0.4431373, g: 0.59607846, b: 0.8000001, a: 0}
+  - id: Flag76
+    value: {r: 1, g: 1, b: 1, a: 0}
   gradients: []
   textures:
   - id: Cover
@@ -301,6 +343,48 @@ MonoBehaviour:
     value: {fileID: 2800000, guid: a7c444d3d7ea45f418de9326b46bd0fa, type: 3}
   - id: Flag55
     value: {fileID: 2800000, guid: db0c1bbf8859df244b8846d91abc2a53, type: 3}
+  - id: Flag56
+    value: {fileID: 2800000, guid: 1b990e762330d81408dc130f3769cbdc, type: 3}
+  - id: Flag57
+    value: {fileID: 2800000, guid: 20d7b33194ccad243b16d4d0f4e1c518, type: 3}
+  - id: Flag58
+    value: {fileID: 2800000, guid: 59b89393a6a333945b4ee2d7b3fd6350, type: 3}
+  - id: Flag59
+    value: {fileID: 2800000, guid: e8f556bb34274d14e802a8711e5a066e, type: 3}
+  - id: Flag60
+    value: {fileID: 2800000, guid: 3559ca337c47abe43880f4fb9879199b, type: 3}
+  - id: Flag61
+    value: {fileID: 2800000, guid: c10f80d9e68cf1c4b93b8396aac5e254, type: 3}
+  - id: Flag62
+    value: {fileID: 2800000, guid: 6c881aca2e2548743ab02e5e7b7fa186, type: 3}
+  - id: Flag63
+    value: {fileID: 2800000, guid: 8426fd001b6e7ae458504e3ccee697c3, type: 3}
+  - id: Flag64
+    value: {fileID: 2800000, guid: 762eb2d0ba98ab84389e90ddc844acc1, type: 3}
+  - id: Flag65
+    value: {fileID: 2800000, guid: 4fbe77855cb8ea4499db70953bd5b8cb, type: 3}
+  - id: Flag66
+    value: {fileID: 2800000, guid: cbc458d9707ed9144bb7acbce437ef3d, type: 3}
+  - id: Flag67
+    value: {fileID: 2800000, guid: e0aed8bd17005ce43a34dacadcfb8173, type: 3}
+  - id: Flag68
+    value: {fileID: 2800000, guid: 51e83335ffcc50a4094514a931f4ba28, type: 3}
+  - id: Flag69
+    value: {fileID: 2800000, guid: ade8db9bee2b74b428ac83bfef50d369, type: 3}
+  - id: Flag70
+    value: {fileID: 2800000, guid: 756a52bbe7c639240a0592609fe5725d, type: 3}
+  - id: Flag71
+    value: {fileID: 2800000, guid: a0ea47d1e0e9ceb49a603c2e4ee70c29, type: 3}
+  - id: Flag72
+    value: {fileID: 2800000, guid: 932e91e0e186471438eaf00350634754, type: 3}
+  - id: Flag73
+    value: {fileID: 2800000, guid: 5cc6993e13ad0084dba56af6cfb46eb3, type: 3}
+  - id: Flag74
+    value: {fileID: 2800000, guid: 134b8401985dfee47b851f70f22b2ed4, type: 3}
+  - id: Flag75
+    value: {fileID: 2800000, guid: 360855fa50f601b469bf8b1577e4cfc5, type: 3}
+  - id: Flag76
+    value: {fileID: 2800000, guid: 3efbb5e63c83cc946ac164579b020654, type: 3}
   sprites: []
   audioClips: []
   materials: []
