@@ -4,7 +4,7 @@ behaviour(mutatorName)
 function MianPoliticalFlags:Awake()
 	self.frameworkName = "Custom Flag Framework"
 	self.dataContainer = self.gameObject.GetComponent(DataContainer)
-	self.version = "1.0.0"
+	self.version = "1.3.0"
 	self.frameworkVersion = "1.0.0"
 	self.customFlags = self.dataContainer.GetTextureArray("Flag")
 	self.customFlagToTeamColors = self.dataContainer.GetColorArray("Flag")
