@@ -4,12 +4,10 @@ behaviour(mutatorName)
 function MianPoliticalFlags:Awake()
 	self.frameworkName = "Custom Flag Framework"
 	self.dataContainer = self.gameObject.GetComponent(DataContainer)
-	self.version = "1.0.0"
-	self.frameworkVersion = "1.0.0"
 	self.customFlags = self.dataContainer.GetTextureArray("Flag")
 	self.customFlagToTeamColors = self.dataContainer.GetColorArray("Flag")
 	self.cover = self.dataContainer.GetTexture("Cover")
-	self.mutatorName = mutatorName
+	self.name = mutatorName
 end
 
 function MianPoliticalFlags:Start()
@@ -20,5 +18,5 @@ function MianPoliticalFlags:Start()
 		error("Framework was not found! Please make sure the Custom Flags Framework mutator has been enabled.")
 	end
 
-	self.framework:addTexturePack(self)
+	self.framework:addFlagPack(self)
 end
